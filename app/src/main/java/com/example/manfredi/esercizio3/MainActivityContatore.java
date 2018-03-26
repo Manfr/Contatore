@@ -20,7 +20,7 @@ public class MainActivityContatore extends AppCompatActivity {
     private CheckBox Raddoppia;
 
     //creo contatore
-    private int Contatore=0;
+    private int Contatore=100;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
