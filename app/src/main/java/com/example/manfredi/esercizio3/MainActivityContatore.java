@@ -50,6 +50,6 @@ public class MainActivityContatore extends AppCompatActivity {
      * Visualizza il valore del contatore
      */
     private void visualizzaMessaggio (){
-        Messaggio.setText(getString(R.string.valore) + Contatore);
+        Messaggio.setText(getString(R.string.valore) + " " + Contatore);
     }
 }
