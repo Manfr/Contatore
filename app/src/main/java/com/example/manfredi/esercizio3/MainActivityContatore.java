@@ -45,7 +45,16 @@ public class MainActivityContatore extends AppCompatActivity {
         Diminuisci.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if (Raddoppia)
                 --Contatore;visualizzaMessaggio();
+            }
+        });
+
+        Azzera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Contatore=0;visualizzaMessaggio();
             }
         });
 
