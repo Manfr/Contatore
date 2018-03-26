@@ -4,4 +4,6 @@
     <string name="Diminuisci1">-</string>
     <string name="Messaggio">Messaggio</string>
     <string name="valore">il contatore vale:</string>
+    <string name="Azzeramento">Azzera</string>
+    <string name="Raddoppia">x2</string>
 </resources>

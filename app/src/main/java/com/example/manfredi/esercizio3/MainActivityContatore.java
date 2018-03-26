@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.TextureView;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.TextView;
 
 public class MainActivityContatore extends AppCompatActivity {
@@ -15,6 +16,8 @@ public class MainActivityContatore extends AppCompatActivity {
     private TextView Messaggio;
     private Button Aumenta;
     private Button Diminuisci;
+    private Button Azzera;
+    private CheckBox Raddoppia;
 
     //creo contatore
     private int Contatore=0;
@@ -28,6 +31,8 @@ public class MainActivityContatore extends AppCompatActivity {
         Messaggio = findViewById(R.id.textMessaggio);
         Aumenta = findViewById(R.id.buttonAumenta);
         Diminuisci = findViewById(R.id.buttonDiminuisci);
+        Azzera = findViewById(R.id.buttonAzzera);
+        Raddoppia = findViewById(R.id.chkRaddoppia);
 
         //Imposto azione dei pulsanti
         Aumenta.setOnClickListener(new View.OnClickListener() {
