@@ -3,4 +3,5 @@
     <string name="Aumenta1">+</string>
     <string name="Diminuisci1">-</string>
     <string name="Messaggio">Messaggio</string>
+    <string name="valore">il contatore vale:</string>
 </resources>
