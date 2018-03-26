@@ -70,3 +70,4 @@ public class MainActivityContatore extends AppCompatActivity {
         Messaggio.setText(getString(R.string.valore) + " " + Contatore);
     }
 }
+//ho aggiunto il progetto a github
